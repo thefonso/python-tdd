@@ -1,1 +1,1 @@
-web: gunicorn superlists.wsqi
+web: gunicorn superlists.wsgi
