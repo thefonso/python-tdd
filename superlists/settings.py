@@ -25,7 +25,7 @@ SECRET_KEY = '2n!vw5c93zj#a)8gti951h-n6-qr35fbtm95j=_!9qn#gpw(2)'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['tddpython.herokuapp.com']
 
 
 # Application definition
