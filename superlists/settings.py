@@ -141,6 +141,11 @@ LOGGING = {
     'root': {'level': 'INFO'},
 }
 
+EMAIL_HOST = 'smtp.gmail.com'
+EMAIL_HOST_USER = 'alephmage@gmail.com'
+EMAIL_HOST_PASSWORD = os.environ.get('EMAIL_PASSWORD')
+EMAIL_PORT = 587
+EMAIL_USE_TLS = True
 
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/1.11/howto/static-files/
