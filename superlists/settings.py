@@ -27,6 +27,8 @@ DEBUG = True
 
 ALLOWED_HOSTS = ['tddpython.herokuapp.com']
 
+# colorize unittest
+TEST_RUNNER = 'accounts.runner.MyTestRunner'
 
 # Application definition
 
@@ -42,6 +44,10 @@ INSTALLED_APPS = [
 ]
 
 AUTH_USER_MODEL = 'accounts.User'
+
+AUTHENTICATION_BACKENDS = [
+    'accounts.authentication.PasswordlessAuthenticationBackend',
+]
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
