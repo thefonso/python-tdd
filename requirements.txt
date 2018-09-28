@@ -1,9 +1,14 @@
+blessings==1.7
+colour-runner==0.1.0
 dj-database-url==0.5.0
 Django==1.11.15
+django-dotenv==1.4.2
 django-heroku==0.3.1
 gunicorn==19.9.0
 psycopg2==2.7.5
+Pygments==2.2.0
 pytz==2018.5
 selenium==3.14.0
+six==1.11.0
 urllib3==1.23
 whitenoise==4.0
