@@ -3,6 +3,11 @@ from django.shortcuts import redirect, render
 from lists.models import Item, List
 from lists.forms import ExistingListItemForm, ItemForm
 
+
+def my_lists(request, email):
+    return render(request, 'my_lists.html')
+
+
 def home_page(request):
     return render(request, 'home.html', {'form': ItemForm()})
 
