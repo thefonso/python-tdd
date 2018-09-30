@@ -45,7 +45,7 @@ class MyListTest(FunctionalTest):
         )
 
         # She decides to start another list, just to see
-        self.browser.get(self.server_url)
+        self.browser.get(self.live_server_url)
         self.add_list_item('Click cows')
         second_list_url = self.browser.current_url
 
